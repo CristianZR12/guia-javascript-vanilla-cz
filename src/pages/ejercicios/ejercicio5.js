@@ -16,7 +16,7 @@ export default () => {
             </form>
             <div id="divContentDEj5P" style="margin-top: 25px;">
                 <p id="contentEj5P"></p>
-                <button id="btnClearEj5" class="btn red" style="margin-top: 20px;">Clear</button>
+                <button id="btnClearEj5" class="btn red" style="margin-top: 20px;">Hidde</button>
             </div>
         </div>
     </div>`;

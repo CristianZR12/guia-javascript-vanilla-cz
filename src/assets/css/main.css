@@ -143,6 +143,40 @@
         display: none;
     }
     
+    #ej7Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardNumPEj7P {
+        width: 40%;
+    }
+    
+    #divContentEj7P {
+        margin-top: 25px;
+        display: none;
+    }
+    
+    #ej6Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardParEj6P {
+        width: 40%;
+    }
+    
+    #divContenetEj6P {
+        margin-top: 25px;
+        display: none;
+    }
+    
     @media screen and (max-width: 1200px) {
         #cardHomePage {
             width: 90%;
@@ -176,6 +210,12 @@
             width: 90%;
         }
         #cardEj3P {
+            width: 90%;
+        }
+        #cardNumPEj7P {
+            width: 90%;
+        }
+        #cardParEj6P {
             width: 90%;
         }
     }

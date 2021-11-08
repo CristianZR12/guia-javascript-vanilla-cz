@@ -47,10 +47,24 @@ function Router(router) {
                 event.ejercicio5Event();
                 break;
             }
+
+        case '#/ejercicio6':
+            {
+                root.appendChild(pages.ej6());
+                event.ejercicio6Event();
+                break;
+            }
+
+        case '#/ejercicio7':
+            {
+                root.appendChild(pages.ej7());
+                event.ejercicio7Event();
+                break;
+            }
+
         case '#/ejercicio8':
             {
-                root.appendChild(pages.ej8());
-                break;
+                return root.appendChild(pages.ej8());
             }
 
         default:

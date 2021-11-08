@@ -25,6 +25,10 @@ export default (navbar) => {
                         <li class="divider" tabindex="-1"></li>
                         <li><a href="#/ejercicio5">Ej 5</a></li>
                         <li class="divider" tabindex="-1"></li>
+                        <li><a href="#/ejercicio6">Ej 6</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#/ejercicio7">Ej 7</a></li>
+                        <li class="divider" tabindex="-1"></li>
                         <li><a href="#/ejercicio8">Ej 8</a></li>
                     </ul>
                 </li>
