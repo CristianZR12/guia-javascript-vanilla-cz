@@ -1,7 +1,181 @@
-#app {
-    width: 100%;
-    height: 93vh;
-    max-height: auto;
-    display: flex;
-    align-items: center;
-}
+    #app {
+        width: 100%;
+        height: 90vh;
+        max-height: auto;
+    }
+    
+    #error404 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #HomePage {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardHomePage {
+        width: 40%;
+    }
+    
+    #btnHomeP {
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #MembersPage {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardMembersPage {
+        width: 45%;
+    }
+    
+    .containerFMB {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    #divPMP {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #divPMP p {
+        margin-bottom: 5px;
+        margin-left: 25px;
+    }
+    
+    #FNMB {
+        margin-bottom: 0;
+    }
+    
+    #divIMP {
+        width: 30%;
+    }
+    
+    .imageMP {
+        width: 100%;
+        height: 250px;
+    }
+    
+    #ej1Page {
+        margin-top: 30px;
+    }
+    
+    #ej2Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardEj2P {
+        width: 40%;
+    }
+    
+    #pREj2P {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    #ej4Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardEj4P {
+        width: 40%;
+    }
+    
+    #resultEj4P {
+        margin-top: 20px;
+    }
+    
+    #ej5Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardEj5P {
+        width: 40%;
+    }
+    
+    #divContentDEj5P {
+        display: none;
+    }
+    
+    #ej3Page {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardEj3P {
+        width: 40%;
+    }
+    
+    #divContentEj3P {
+        margin-top: 25px;
+        display: none;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        #cardHomePage {
+            width: 90%;
+        }
+        #cardMembersPage {
+            width: 90%;
+        }
+        .containerFMB {
+            flex-direction: column;
+        }
+        #divPMP {
+            width: 100%;
+            text-align: center;
+        }
+        #divIMP {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        .imageMP {
+            width: 250px;
+        }
+        #cardEj2P {
+            width: 90%;
+        }
+        #cardEj4P {
+            width: 90%;
+        }
+        #cardEj5P {
+            width: 90%;
+        }
+        #cardEj3P {
+            width: 90%;
+        }
+    }
